@@ -1,23 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-31T17:28:45 IST" name="Suite" finished-at="2023-03-31T17:28:45 IST" duration-ms="70">
+  <suite started-at="2023-04-06T13:27:08 IST" name="Suite" finished-at="2023-04-06T13:27:08 IST" duration-ms="125">
     <groups>
+      <group name="regression">
+        <method signature="test01.add1()[pri:0, instance:module1.test01@702b8b12]" name="add1" class="module1.test01"/>
+        <method signature="test02.sub()[pri:0, instance:module1.test02@3059cbc]" name="sub" class="module1.test02"/>
+      </group> <!-- regression -->
       <group name="smoke">
-        <method signature="test01.add()[pri:0, instance:module1.test01@48974e45]" name="add" class="module1.test01"/>
-        <method signature="test02.sub1()[pri:0, instance:module1.test02@2053d869]" name="sub1" class="module1.test02"/>
+        <method signature="test01.add()[pri:0, instance:module1.test01@702b8b12]" name="add" class="module1.test01"/>
+        <method signature="test02.sub1()[pri:0, instance:module1.test02@3059cbc]" name="sub1" class="module1.test02"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2023-03-31T17:28:45 IST" name="Test" finished-at="2023-03-31T17:28:45 IST" duration-ms="70">
+    <test started-at="2023-04-06T13:27:08 IST" name="Test" finished-at="2023-04-06T13:27:08 IST" duration-ms="125">
       <class name="module1.test01">
-        <test-method signature="add()[pri:0, instance:module1.test01@48974e45]" started-at="2023-03-31T17:28:45 IST" name="add" finished-at="2023-03-31T17:28:45 IST" duration-ms="9" status="PASS">
+        <test-method signature="add()[pri:0, instance:module1.test01@702b8b12]" started-at="2023-04-06T13:27:08 IST" name="add" finished-at="2023-04-06T13:27:08 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- add -->
+        <test-method signature="add1()[pri:0, instance:module1.test01@702b8b12]" started-at="2023-04-06T13:27:08 IST" name="add1" finished-at="2023-04-06T13:27:08 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add1 -->
       </class> <!-- module1.test01 -->
       <class name="module1.test02">
-        <test-method signature="sub1()[pri:0, instance:module1.test02@2053d869]" started-at="2023-03-31T17:28:45 IST" name="sub1" finished-at="2023-03-31T17:28:45 IST" duration-ms="1" status="PASS">
+        <test-method signature="sub()[pri:0, instance:module1.test02@3059cbc]" started-at="2023-04-06T13:27:08 IST" name="sub" finished-at="2023-04-06T13:27:08 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+        <test-method signature="sub1()[pri:0, instance:module1.test02@3059cbc]" started-at="2023-04-06T13:27:08 IST" name="sub1" finished-at="2023-04-06T13:27:08 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sub1 -->
