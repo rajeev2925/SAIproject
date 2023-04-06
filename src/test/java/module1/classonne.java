@@ -1,8 +1,12 @@
 package module1;
 
-public class classonne {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class classonne {
+@Test
+	public void add()
+	{
+	
 		// TODO Auto-generated method stub
 		String URL=System.getProperty("url");
 		String BROWSER=System.getProperty("browser");
